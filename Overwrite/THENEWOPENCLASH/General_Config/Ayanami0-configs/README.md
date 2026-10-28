@@ -4,7 +4,8 @@
 
 | 文件名 | proxy-providers | Raw 链接 |
 | :--- | :--- | :--- |
-| **Ayanami0_config_geo-lite.yaml** | α、β、γ、δ | [下载/查看](https://raw.githubusercontent.com/HenryChiao/MIHOMO_YAMLS/main/Overwrite/THENEWOPENCLASH/General_Config/Ayanami0-configs/Ayanami0_config_geo-lite.yaml) |
+| **Ayanami0_config.yaml** | α、β、γ、δ、ε、ζ、η、θ | [下载/查看](https://raw.githubusercontent.com/nopcall/MIHOMO_YAMLS/main/Overwrite/THENEWOPENCLASH/General_Config/Ayanami0-configs/Ayanami0_config.yaml) |
+| **Ayanami0_config_geo-lite.yaml** | α、β、γ、δ | [下载/查看](https://raw.githubusercontent.com/nopcall/MIHOMO_YAMLS/main/Overwrite/THENEWOPENCLASH/General_Config/Ayanami0-configs/Ayanami0_config_geo-lite.yaml) |
 
 ---
 [🔙 返回总览](../README.md)
