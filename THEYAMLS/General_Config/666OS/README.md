@@ -6,17 +6,41 @@
 
 ## ⚔️ 配置横向对比
 
-| 特性 | `Pro_en.yaml` | `Lite_en.yaml` | `MihomoPro_Config.yaml` | `Mini_en.yaml` | `OneTouch_Config.yaml` |
+| 特性 | `OneTouch_Config.yaml` | `Pro_en.yaml` | `Mini_en.yaml` | `MihomoPro_Config.yaml` | `Lite_en.yaml` |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **大小** | 15.4 KB | 11.0 KB | 22.2 KB | 4.7 KB | 12.1 KB |
+| **大小** | 12.1 KB | 15.4 KB | 4.7 KB | 22.2 KB | 11.0 KB |
 | **混合端口** | 7893 | 7893 | 7893 | 7893 | 7893 |
 | **面板地址** | 127.0.0.1:9090 | 127.0.0.1:9090 | 127.0.0.1:9090 | 127.0.0.1:9090 | 127.0.0.1:9090 |
 | **运行模式** | rule | rule | rule | rule | rule |
 | **TUN** | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 |
-| **策略组** | **37** | **18** | **51** | **3** | **14** |
-| **规则数** | **29** | **20** | **39** | **7** | **22** |
+| **策略组** | **14** | **37** | **3** | **51** | **18** |
+| **规则数** | **22** | **29** | **7** | **39** | **20** |
 
 ## 📄 配置详情
+
+#### 📝 OneTouch_Config.yaml
+- **路径**: `OneTouch_Config.yaml` | **大小**: 12.1 KB | [查看源码](https://github.com/nopcall/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/666OS/OneTouch_Config.yaml)
+- **模式**: rule | **TUN**: 🚫 | **IPv6**: 🚫
+<details>
+<summary>🔍 策略组 (14个)</summary>
+
+| 名称 | 类型 |
+| :--- | :--- |
+| 👆 一键连 | `select` |
+| 👆 人工智能 | `select` |
+| 👆 社交平台 | `select` |
+| 👆 国际媒体 | `select` |
+| 👆 国内流量 | `select` |
+| 👆 手动选择 | `select` |
+| 👆 直接连接 | `select` |
+| ♻️ 香港自动 | `url-test` |
+| ♻️ 台湾自动 | `url-test` |
+| ♻️ 日本自动 | `url-test` |
+| ♻️ 狮城自动 | `url-test` |
+| ♻️ 韩国自动 | `url-test` |
+| ♻️ 美国自动 | `url-test` |
+| ♻️ 欧洲自动 | `url-test` |
+</details>
 
 #### 📝 Pro_en.yaml
 - **路径**: `Pro_en.yaml` | **大小**: 15.4 KB | [查看源码](https://github.com/nopcall/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/666OS/Pro_en.yaml)
@@ -49,32 +73,17 @@
 | ... | 还有 17 个 |
 </details>
 
-#### 📝 Lite_en.yaml
-- **路径**: `Lite_en.yaml` | **大小**: 11.0 KB | [查看源码](https://github.com/nopcall/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/666OS/Lite_en.yaml)
+#### 📝 Mini_en.yaml
+- **路径**: `Mini_en.yaml` | **大小**: 4.7 KB | [查看源码](https://github.com/nopcall/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/666OS/Mini_en.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: 🚫
 <details>
-<summary>🔍 策略组 (18个)</summary>
+<summary>🔍 策略组 (3个)</summary>
 
 | 名称 | 类型 |
 | :--- | :--- |
-| 👆 TM | `select` |
-| 👆 SOCIAL | `select` |
-| 👆 AI | `select` |
-| 👆 DEV | `select` |
-| 👆 STREAMING | `select` |
-| 👆 GOOGLE | `select` |
-| 👆 APPLE | `select` |
 | 👆 OUTCN | `select` |
 | 👆 CN | `select` |
 | 👆 MATCH | `select` |
-| 🔧 FALLBACK | `fallback` |
-| 👆 MANUAL | `select` |
-| ♻️ HK | `url-test` |
-| ♻️ TW | `url-test` |
-| ♻️ JP | `url-test` |
-| ♻️ SG | `url-test` |
-| ♻️ KR | `url-test` |
-| ♻️ US | `url-test` |
 </details>
 
 #### 📝 MihomoPro_Config.yaml
@@ -108,39 +117,30 @@
 | ... | 还有 31 个 |
 </details>
 
-#### 📝 Mini_en.yaml
-- **路径**: `Mini_en.yaml` | **大小**: 4.7 KB | [查看源码](https://github.com/nopcall/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/666OS/Mini_en.yaml)
+#### 📝 Lite_en.yaml
+- **路径**: `Lite_en.yaml` | **大小**: 11.0 KB | [查看源码](https://github.com/nopcall/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/666OS/Lite_en.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: 🚫
 <details>
-<summary>🔍 策略组 (3个)</summary>
+<summary>🔍 策略组 (18个)</summary>
 
 | 名称 | 类型 |
 | :--- | :--- |
+| 👆 TM | `select` |
+| 👆 SOCIAL | `select` |
+| 👆 AI | `select` |
+| 👆 DEV | `select` |
+| 👆 STREAMING | `select` |
+| 👆 GOOGLE | `select` |
+| 👆 APPLE | `select` |
 | 👆 OUTCN | `select` |
 | 👆 CN | `select` |
 | 👆 MATCH | `select` |
-</details>
-
-#### 📝 OneTouch_Config.yaml
-- **路径**: `OneTouch_Config.yaml` | **大小**: 12.1 KB | [查看源码](https://github.com/nopcall/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/666OS/OneTouch_Config.yaml)
-- **模式**: rule | **TUN**: 🚫 | **IPv6**: 🚫
-<details>
-<summary>🔍 策略组 (14个)</summary>
-
-| 名称 | 类型 |
-| :--- | :--- |
-| 👆 一键连 | `select` |
-| 👆 人工智能 | `select` |
-| 👆 社交平台 | `select` |
-| 👆 国际媒体 | `select` |
-| 👆 国内流量 | `select` |
-| 👆 手动选择 | `select` |
-| 👆 直接连接 | `select` |
-| ♻️ 香港自动 | `url-test` |
-| ♻️ 台湾自动 | `url-test` |
-| ♻️ 日本自动 | `url-test` |
-| ♻️ 狮城自动 | `url-test` |
-| ♻️ 韩国自动 | `url-test` |
-| ♻️ 美国自动 | `url-test` |
-| ♻️ 欧洲自动 | `url-test` |
+| 🔧 FALLBACK | `fallback` |
+| 👆 MANUAL | `select` |
+| ♻️ HK | `url-test` |
+| ♻️ TW | `url-test` |
+| ♻️ JP | `url-test` |
+| ♻️ SG | `url-test` |
+| ♻️ KR | `url-test` |
+| ♻️ US | `url-test` |
 </details>
